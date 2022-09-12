@@ -17,6 +17,8 @@ ll binpow(ll x, ll y) {
 }
 
 int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
 	ll n, m; cin >> n >> m;
 	vector<ll> factorial(n + m), ifactorial(n + m);
 	factorial[0] = 1; ifactorial[0] = 1;

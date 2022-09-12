@@ -17,6 +17,8 @@ ll exp(ll x, ll y) {
 }
  
 int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
     string a; cin >> a;
 	vector<int> characters(26);
 	for(int i = 0; i < a.size(); i++) {
